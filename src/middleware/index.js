@@ -1,9 +1,9 @@
 import { MongoClient } from 'mongodb';
 import nextConnect from 'next-connect';
 
-const user = process.env.DB_USER;
-const pass = process.env.DB_PASS;
-const cluster = process.env.DB_CLUSTER;
+const user = 'brian';
+const pass = '32cRl33sELIPW4OX';
+const cluster = 'droulia';
 const db = 'sample_airbnb';
 const uri =`mongodb+srv://${user}:${pass}@${cluster}.g31ak.mongodb.net/${db}?retryWrites=true&w=majority`;
 
